@@ -2,9 +2,10 @@ Activity Classification
 
 # Contents
 
-1. [Requirements](https://github.com/sadra-safa/ActivityClassification/blob/master/README.md#requirements)
-2. [Datasets](https://github.com/sadra-safa/ActivityClassification/blob/master/README.md#datasets)
-3. [Run](https://github.com/sadra-safa/ActivityClassification/blob/master/README.md#run)
+1. [Requirements](https://github.com/sadra-safa/ActivityClassification#requirements)
+2. [Datasets](https://github.com/sadra-safa/ActivityClassification#datasets)
+3. [Run](https://github.com/sadra-safa/ActivityClassification#run)
+4. [Checkpoints](https://github.com/sadra-safa/ActivityClassification#Checkpoints)
 
 # Requirements
 This project depends on  `numpy`, `scikit-learn` and `PyTorch` packages.
@@ -14,7 +15,7 @@ They can be installed as:
 pip install numpy scikit-learn
 conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
 ```
-For installing different versions of `PyTorch` please check [the official PyTorch webiste](https://pytorch.org/)
+For installing different versions of `PyTorch` please check [the official PyTorch webiste](https://pytorch.org/).
 
 # Datasets
 1. Downlaod the "Activity recognition using wearable physiological measurements" dataset from [here](https://www.mdpi.com/1424-8220/19/24/5524/s1)
@@ -34,8 +35,9 @@ For installing different versions of `PyTorch` please check [the official PyTorc
             ...
     ├── wearable.ipynb
     ├── smartphone.ipynb
+    ├── Checkpoints.ipynb
 ```
-These steps can be performed using the following commands:
+The above steps can be performed using the following commands:
 ```
 wget -O wearable.zip --user-agent="Mozilla" https://www.mdpi.com/1424-8220/19/24/5524/s1
 wget https://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
@@ -46,3 +48,8 @@ unzip 'UCI HAR Dataset.zip'
 
 # Run
 Run [`wearable.ipynb`](https://github.com/sadra-safa/ActivityClassification/blob/master/wearable.ipynb) and [`smartphone.ipynb`](https://github.com/sadra-safa/ActivityClassification/blob/master/smartphone.ipynb) for the first and second dataset respectively.
+
+# Checkpoints
+Checkpoints of our BEST MLP models are available:
+1. For [wearable](https://github.com/sadra-safa/ActivityClassification/raw/master/Checkpoints/mlp-wearable.pth)
+2. For [smarthphone](https://github.com/sadra-safa/ActivityClassification/raw/master/Checkpoints/mlp-smartphone.pth)
