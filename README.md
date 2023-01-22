@@ -45,4 +45,4 @@ unzip 'UCI HAR Dataset.zip'
 ```
 
 # Run
-Run [`wearable.ipynb`](https://github.com/sadra-safa/ActivityClassification/blob/master/wearable.ipynb) and `[smartphone.ipynb]`(https://github.com/sadra-safa/ActivityClassification/blob/master/smartphone.ipynb) for the first and second dataset respectively.
+Run [`wearable.ipynb`](https://github.com/sadra-safa/ActivityClassification/blob/master/wearable.ipynb) and [`smartphone.ipynb`](https://github.com/sadra-safa/ActivityClassification/blob/master/smartphone.ipynb) for the first and second dataset respectively.
