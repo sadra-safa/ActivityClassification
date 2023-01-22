@@ -2,9 +2,9 @@ Activity Classification
 
 # Contents
 
-1. [Requirements](https://github.com/sadra-safa/ActivityClassification/README.md#Requirements)
-2. [Datasets](https://github.com/sadra-safa/ActivityClassification/README.md#Datasets)
-3. [Run](https://github.com/sadra-safa/ActivityClassification/README.md#Run)
+1. [Requirements](https://github.com/sadra-safa/ActivityClassification/blob/master/README.md#requirements)
+2. [Datasets](https://github.com/sadra-safa/ActivityClassification/blob/master/README.md#datasets)
+3. [Run](https://github.com/sadra-safa/ActivityClassification/blob/master/README.md#run)
 
 # Requirements
 This project depends on  `numpy`, `scikit-learn` and `PyTorch` packages.
