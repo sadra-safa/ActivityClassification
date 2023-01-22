@@ -6,6 +6,8 @@ Activity Classification
 2. [Datasets](https://github.com/sadra-safa/ActivityClassification#datasets)
 3. [Run](https://github.com/sadra-safa/ActivityClassification#run)
 4. [Checkpoints](https://github.com/sadra-safa/ActivityClassification#Checkpoints)
+5. [Report](https://github.com/sadra-safa/ActivityClassification#report)
+6. [Presentation](https://github.com/sadra-safa/ActivityClassification#presentation)
 
 # Requirements
 This project depends on  `numpy`, `scikit-learn` and `PyTorch` packages.
@@ -53,3 +55,12 @@ Run [`wearable.ipynb`](https://github.com/sadra-safa/ActivityClassification/blob
 Checkpoints of our BEST MLP models are available:
 1. For [wearable](https://github.com/sadra-safa/ActivityClassification/raw/master/Checkpoints/mlp-wearable.pth)
 2. For [smarthphone](https://github.com/sadra-safa/ActivityClassification/raw/master/Checkpoints/mlp-smartphone.pth)
+
+# Report
+The report is accessible [here](https://github.com/sadra-safa/ActivityClassification/raw/master/Report.pdf).
+
+# Presentation
+The presentation is accessible [here](https://github.com/sadra-safa/ActivityClassification/raw/master/presentation.pptx). 
+The slides are best viewed on google slides.
+
+Notet that after the presentation which was 1 week before the deadline, some of the results have changed. So for the up-to-date results please check the [final report](https://github.com/sadra-safa/ActivityClassification/raw/master/Report.pdf).
