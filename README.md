@@ -45,4 +45,4 @@ unzip 'UCI HAR Dataset.zip'
 ```
 
 # Run
-Run `wearble.ipynb` and `smartphone.ipynb` for the first and second dataset respectively.
+Run `wearable.ipynb` and `smartphone.ipynb` for the first and second dataset respectively.
