@@ -5,6 +5,7 @@ Activity Classification
 1. [Requirements](https://github.com/sadra-safa/ActivityClassification/blob/master/README.md#requirements)
 2. [Datasets](https://github.com/sadra-safa/ActivityClassification/blob/master/README.md#datasets)
 3. [Run](https://github.com/sadra-safa/ActivityClassification/blob/master/README.md#run)
+4. [Checkpoints](https://github.com/sadra-safa/ActivityClassification/blob/master/README.md#Checkpoints)
 
 # Requirements
 This project depends on  `numpy`, `scikit-learn` and `PyTorch` packages.
@@ -34,6 +35,7 @@ For installing different versions of `PyTorch` please check [the official PyTorc
             ...
     ├── wearable.ipynb
     ├── smartphone.ipynb
+    ├── Checkpoints.ipynb
 ```
 These steps can be performed using the following commands:
 ```
@@ -46,3 +48,8 @@ unzip 'UCI HAR Dataset.zip'
 
 # Run
 Run [`wearable.ipynb`](https://github.com/sadra-safa/ActivityClassification/blob/master/wearable.ipynb) and [`smartphone.ipynb`](https://github.com/sadra-safa/ActivityClassification/blob/master/smartphone.ipynb) for the first and second dataset respectively.
+
+# Checkpoints
+Checkpoints of our BEST MLP models are available:
+1. For [wearable](https://github.com/sadra-safa/ActivityClassification/raw/master/Checkpoints/mlp-wearable.pth)
+2. For [smarthphone](https://github.com/sadra-safa/ActivityClassification/raw/master/Checkpoints/mlp-smartphone.pth)
