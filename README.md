@@ -15,7 +15,7 @@ They can be installed as:
 pip install numpy scikit-learn
 conda install pytorch torchvision torchaudio pytorch-cuda=11.6 -c pytorch -c nvidia
 ```
-For installing different versions of `PyTorch` please check [the official PyTorch webiste](https://pytorch.org/)
+For installing different versions of `PyTorch` please check [the official PyTorch webiste](https://pytorch.org/).
 
 # Datasets
 1. Downlaod the "Activity recognition using wearable physiological measurements" dataset from [here](https://www.mdpi.com/1424-8220/19/24/5524/s1)
