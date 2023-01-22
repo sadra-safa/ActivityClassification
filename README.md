@@ -37,7 +37,7 @@ For installing different versions of `PyTorch` please check [the official PyTorc
     ├── smartphone.ipynb
     ├── Checkpoints.ipynb
 ```
-These steps can be performed using the following commands:
+The above steps can be performed using the following commands:
 ```
 wget -O wearable.zip --user-agent="Mozilla" https://www.mdpi.com/1424-8220/19/24/5524/s1
 wget https://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.zip
